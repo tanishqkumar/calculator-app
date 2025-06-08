@@ -9,7 +9,7 @@ def multiply(x, y):
 
 def divide(x, y):
     if y == 0:
-        raise ZeroDivisionError("Cannot divide by zero")
+        return 'Error: Division by zero is not allowed'
     return x / y
 
 def rectangle_area(length, width):
